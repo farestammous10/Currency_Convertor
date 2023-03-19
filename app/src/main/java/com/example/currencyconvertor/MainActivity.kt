@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             override fun onNothingSelected(p0: AdapterView<*>?) {
                 TODO("Not yet implemented")
             }
-        }
+        }//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
         button.setOnClickListener { view ->
             var x: Int = number.text.toString().toInt()
             if (flag == "JD to Dollar") {
