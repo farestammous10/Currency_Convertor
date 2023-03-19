@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         }//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
         button.setOnClickListener { view ->
             var x: Int = number.text.toString().toInt()
-            if (flag == "JD to Dollar") {
+            if (flag == "JD to Dollar") { 
                 result1.text = JOD_to_Dollar(x).toString()
 
             } else if (flag == "Dollar to Euro") {
